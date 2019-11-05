@@ -1,8 +1,8 @@
 'use strict'
 
 function repeat(my_function, num) {
-    if (num == 0)
-        return 1
+    if (num === 0)
+        return
 
     my_function()
 
